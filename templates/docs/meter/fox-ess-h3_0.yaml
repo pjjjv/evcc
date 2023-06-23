@@ -7,31 +7,13 @@ render:
       type: template
       template: fox-ess-h3
       usage: grid
-
-      # Modbus TCP
-      modbus: tcpip
-      id: 1
-      host: 192.0.2.2 # Hostname
-      port: 502 # Port
   - usage: pv
     default: |
       type: template
       template: fox-ess-h3
       usage: pv
-
-      # Modbus TCP
-      modbus: tcpip
-      id: 1
-      host: 192.0.2.2 # Hostname
-      port: 502 # Port
   - usage: battery
     default: |
       type: template
       template: fox-ess-h3
       usage: battery
-
-      # Modbus TCP
-      modbus: tcpip
-      id: 1
-      host: 192.0.2.2 # Hostname
-      port: 502 # Port

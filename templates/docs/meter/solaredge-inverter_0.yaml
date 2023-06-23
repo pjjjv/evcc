@@ -10,21 +10,15 @@ render:
       template: solaredge-inverter
       usage: grid
 
-      # RS485 via adapter (Modbus RTU)
-      modbus: rs485serial
+      # RS485 via USB adapter (Modbus RTU)
+      modbus: serial
       id: 1
-      device: /dev/ttyUSB0 # USB-RS485 Adapter Adresse
-      baudrate: 9600 # Prüfe die Geräteeinstellungen, typische Werte sind 9600, 19200, 38400, 57600, 115200
-      comset: "8N1" # Kommunikationsparameter für den Adapter
+      device: /dev/ttyUSB0 # USB-RS485 Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
+      comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via TCP/IP (Modbus RTU)
-      modbus: rs485tcpip
-      id: 1
-      host: 192.0.2.2 # Hostname
-      port: 1502 # Port
-
-      # Modbus TCP
-      modbus: tcpip
+      # RS485 via Ethernet adapter (Modbus RTU)
+      modbus: rtu
       id: 1
       host: 192.0.2.2 # Hostname
       port: 1502 # Port
@@ -33,21 +27,15 @@ render:
       template: solaredge-inverter
       usage: grid
 
-      # RS485 via adapter (Modbus RTU)
-      modbus: rs485serial
+      # RS485 via USB adapter (Modbus RTU)
+      modbus: serial
       id: 1
-      device: /dev/ttyUSB0 # USB-RS485 Adapter Adresse
-      baudrate: 9600 # Prüfe die Geräteeinstellungen, typische Werte sind 9600, 19200, 38400, 57600, 115200
-      comset: "8N1" # Kommunikationsparameter für den Adapter
+      device: /dev/ttyUSB0 # USB-RS485 Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
+      comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via TCP/IP (Modbus RTU)
-      modbus: rs485tcpip
-      id: 1
-      host: 192.0.2.2 # Hostname
-      port: 1502 # Port
-
-      # Modbus TCP
-      modbus: tcpip
+      # RS485 via Ethernet adapter (Modbus RTU)
+      modbus: rtu
       id: 1
       host: 192.0.2.2 # Hostname
       port: 1502 # Port
@@ -58,21 +46,15 @@ render:
       template: solaredge-inverter
       usage: pv
 
-      # RS485 via adapter (Modbus RTU)
-      modbus: rs485serial
+      # RS485 via USB adapter (Modbus RTU)
+      modbus: serial
       id: 1
-      device: /dev/ttyUSB0 # USB-RS485 Adapter Adresse
-      baudrate: 9600 # Prüfe die Geräteeinstellungen, typische Werte sind 9600, 19200, 38400, 57600, 115200
-      comset: "8N1" # Kommunikationsparameter für den Adapter
+      device: /dev/ttyUSB0 # USB-RS485 Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
+      comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via TCP/IP (Modbus RTU)
-      modbus: rs485tcpip
-      id: 1
-      host: 192.0.2.2 # Hostname
-      port: 1502 # Port
-
-      # Modbus TCP
-      modbus: tcpip
+      # RS485 via Ethernet adapter (Modbus RTU)
+      modbus: rtu
       id: 1
       host: 192.0.2.2 # Hostname
       port: 1502 # Port
@@ -81,21 +63,15 @@ render:
       template: solaredge-inverter
       usage: pv
 
-      # RS485 via adapter (Modbus RTU)
-      modbus: rs485serial
+      # RS485 via USB adapter (Modbus RTU)
+      modbus: serial
       id: 1
-      device: /dev/ttyUSB0 # USB-RS485 Adapter Adresse
-      baudrate: 9600 # Prüfe die Geräteeinstellungen, typische Werte sind 9600, 19200, 38400, 57600, 115200
-      comset: "8N1" # Kommunikationsparameter für den Adapter
+      device: /dev/ttyUSB0 # USB-RS485 Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
+      comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via TCP/IP (Modbus RTU)
-      modbus: rs485tcpip
-      id: 1
-      host: 192.0.2.2 # Hostname
-      port: 1502 # Port
-
-      # Modbus TCP
-      modbus: tcpip
+      # RS485 via Ethernet adapter (Modbus RTU)
+      modbus: rtu
       id: 1
       host: 192.0.2.2 # Hostname
       port: 1502 # Port
