@@ -20,6 +20,12 @@ render:
       id: 1
       host: 192.0.2.2 # Hostname
       port: 502 # Port
+
+      # RS485 via protocol converter (Modbus TCP)
+      modbus: tcp
+      id: 1
+      host: 192.0.2.2 # Hostname
+      port: 502 # Port
   - usage: pv
     default: |
       type: template
@@ -38,6 +44,12 @@ render:
       id: 1
       host: 192.0.2.2 # Hostname
       port: 502 # Port
+
+      # RS485 via protocol converter (Modbus TCP)
+      modbus: tcp
+      id: 1
+      host: 192.0.2.2 # Hostname
+      port: 502 # Port
   - usage: battery
     default: |
       type: template
@@ -53,6 +65,12 @@ render:
 
       # RS485 via Ethernet adapter (Modbus RTU)
       modbus: rtu
+      id: 1
+      host: 192.0.2.2 # Hostname
+      port: 502 # Port
+
+      # RS485 via protocol converter (Modbus TCP)
+      modbus: tcp
       id: 1
       host: 192.0.2.2 # Hostname
       port: 502 # Port
