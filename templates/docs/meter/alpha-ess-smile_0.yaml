@@ -8,20 +8,20 @@ render:
       template: alpha-ess-smile
       usage: grid
 
-      # RS485 via USB adapter (Modbus RTU)
-      modbus: serial
+      # Attached on local serial port (Modbus RTU)
+      modbus: rtu
       id: 85
-      device: /dev/ttyUSB0 # USB Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via Ethernet adapter (Modbus RTU)
-      modbus: rtu
+      # Attached to transparent serial device server (Modbus RTU over TCP/IP)
+      modbus: rtu-over-tcp
       id: 85
       host: 192.0.2.2 # Hostname
       port: 502 # Port
 
-      # RS485 via protocol converter (Modbus TCP)
+      # Modbus TCP
       modbus: tcp
       id: 85
       host: 192.0.2.2 # Hostname
@@ -31,20 +31,20 @@ render:
       template: alpha-ess-smile
       usage: grid
 
-      # RS485 via USB adapter (Modbus RTU)
-      modbus: serial
+      # Attached on local serial port (Modbus RTU)
+      modbus: rtu
       id: 85
-      device: /dev/ttyUSB0 # USB Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via Ethernet adapter (Modbus RTU)
-      modbus: rtu
+      # Attached to transparent serial device server (Modbus RTU over TCP/IP)
+      modbus: rtu-over-tcp
       id: 85
       host: 192.0.2.2 # Hostname
       port: 502 # Port
 
-      # RS485 via protocol converter (Modbus TCP)
+      # Modbus TCP
       modbus: tcp
       id: 85
       host: 192.0.2.2 # Hostname
@@ -55,20 +55,20 @@ render:
       template: alpha-ess-smile
       usage: pv
 
-      # RS485 via USB adapter (Modbus RTU)
-      modbus: serial
+      # Attached on local serial port (Modbus RTU)
+      modbus: rtu
       id: 85
-      device: /dev/ttyUSB0 # USB Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via Ethernet adapter (Modbus RTU)
-      modbus: rtu
+      # Attached to transparent serial device server (Modbus RTU over TCP/IP)
+      modbus: rtu-over-tcp
       id: 85
       host: 192.0.2.2 # Hostname
       port: 502 # Port
 
-      # RS485 via protocol converter (Modbus TCP)
+      # Modbus TCP
       modbus: tcp
       id: 85
       host: 192.0.2.2 # Hostname
@@ -78,20 +78,20 @@ render:
       template: alpha-ess-smile
       usage: pv
 
-      # RS485 via USB adapter (Modbus RTU)
-      modbus: serial
+      # Attached on local serial port (Modbus RTU)
+      modbus: rtu
       id: 85
-      device: /dev/ttyUSB0 # USB Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via Ethernet adapter (Modbus RTU)
-      modbus: rtu
+      # Attached to transparent serial device server (Modbus RTU over TCP/IP)
+      modbus: rtu-over-tcp
       id: 85
       host: 192.0.2.2 # Hostname
       port: 502 # Port
 
-      # RS485 via protocol converter (Modbus TCP)
+      # Modbus TCP
       modbus: tcp
       id: 85
       host: 192.0.2.2 # Hostname
@@ -102,20 +102,20 @@ render:
       template: alpha-ess-smile
       usage: battery
 
-      # RS485 via USB adapter (Modbus RTU)
-      modbus: serial
+      # Attached on local serial port (Modbus RTU)
+      modbus: rtu
       id: 85
-      device: /dev/ttyUSB0 # USB Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via Ethernet adapter (Modbus RTU)
-      modbus: rtu
+      # Attached to transparent serial device server (Modbus RTU over TCP/IP)
+      modbus: rtu-over-tcp
       id: 85
       host: 192.0.2.2 # Hostname
       port: 502 # Port
 
-      # RS485 via protocol converter (Modbus TCP)
+      # Modbus TCP
       modbus: tcp
       id: 85
       host: 192.0.2.2 # Hostname
@@ -125,20 +125,20 @@ render:
       template: alpha-ess-smile
       usage: battery
 
-      # RS485 via USB adapter (Modbus RTU)
-      modbus: serial
+      # Attached on local serial port (Modbus RTU)
+      modbus: rtu
       id: 85
-      device: /dev/ttyUSB0 # USB Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0
+      device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
-      # RS485 via Ethernet adapter (Modbus RTU)
-      modbus: rtu
+      # Attached to transparent serial device server (Modbus RTU over TCP/IP)
+      modbus: rtu-over-tcp
       id: 85
       host: 192.0.2.2 # Hostname
       port: 502 # Port
 
-      # RS485 via protocol converter (Modbus TCP)
+      # Modbus TCP
       modbus: tcp
       id: 85
       host: 192.0.2.2 # Hostname
